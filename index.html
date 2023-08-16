@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>What is The Weather Like In</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="search">
+                What is the weather like in
+                <input type="text" name="location" id="weather_search" />?
+            </div>
+            <div>
+                <p>
+                    (tip: US Zipcode, UK Postcode, Canada Postalcode, IP
+                    address, Latitude/Longitude (decimal degree) or city name.)
+                </p>
+                <p>
+                    <a href="https://www.weatherapi.com/api-explorer.aspx">
+                        click here </a
+                    >for more options
+                </p>
+            </div>
+            <div id="weather_results">
+                <div id="location_data"></div>
+                <div id="weather_data"></div>
+                <div id="error_data"></div>
+            </div>
+        </div>
+    </body>
+</html>
+<script type="module" src="./index.js"></script>
